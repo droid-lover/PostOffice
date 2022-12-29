@@ -8,6 +8,11 @@ object Versions {
     val extJunit = "1.1.3"
     val espressoCore = "3.4.0"
 
+    val compileSdk = 32
+    val minSdk = 21
+    val targetSdk = 32
+    val versionCode = 1
+    val versionName = "1.0"
 
 }
 
