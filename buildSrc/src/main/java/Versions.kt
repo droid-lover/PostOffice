@@ -14,5 +14,19 @@ object Versions {
     val versionCode = 1
     val versionName = "1.0"
 
+    val chatSdk = "1.1.0"
+
+    val splashScreen = "1.0.0"
+
+    val progressLib = "0.0.3"
 }
+
+
+
+
+
+
+
+
+
 
