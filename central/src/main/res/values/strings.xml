@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_message1">Join the best social app of the century</string>
+    <string name="onboarding_message2">Communicate with your friends and family with ease</string>
+    <string name="onboarding_message3">Make video and audio calls easily and show your status</string>
+
+
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+
+    <string name="get_started">Get Started</string>
+</resources>

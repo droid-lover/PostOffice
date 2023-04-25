@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#22223b</color>
+    <color name="colorPrimaryVariant">#4a4e69</color>
+    <color name="colorOnPrimary">#22223b</color>
+    <color name="colorSecondary">#9a8c98</color>
+    <color name="colorSecondaryVariant">#c9ada7</color>
+    <color name="colorLightBg">#f2e9e4</color>
+
+    <color name="statusBarColor">#22223b</color>
+
+    <color name="colorBlack">#FF000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+</resources>
