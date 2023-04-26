@@ -14,14 +14,13 @@ object Dependencies {
 
     val splashScreen by lazy { "androidx.core:core-splashscreen:${Versions.splashScreen}"}
 
-    val progressLib by lazy {"com.github.TOrnelas:SegmentedProgressBar:${Versions.progressLib}"}
-
 }
 
 object Modules {
 
     val chat = ":chat"
     val onboarding = ":onboarding"
+    val central = ":central"
 
 }
 

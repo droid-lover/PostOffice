@@ -31,6 +31,11 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+
+    buildFeatures {
+        dataBinding = true
+    }
 }
 
 dependencies {
@@ -43,5 +48,5 @@ dependencies {
     androidTestImplementation(Dependencies.extJunit)
     androidTestImplementation(Dependencies.espressoCore)
 
-    implementation(Dependencies.progressLib)
+    implementation(project(Modules.central))
 }

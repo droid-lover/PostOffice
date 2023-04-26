@@ -35,6 +35,10 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+    buildFeatures {
+        dataBinding = true
+    }
 }
 
 dependencies {
@@ -45,4 +49,19 @@ dependencies {
     testImplementation(Dependencies.junit)
     androidTestImplementation(Dependencies.extJunit)
     androidTestImplementation(Dependencies.espressoCore)
+
+    implementation(project(Modules.chat))
+    implementation(project(Modules.onboarding))
+
+    implementation(Dependencies.splashScreen)
+
+    implementation(project(Modules.central))
 }
+
+
+
+
+
+
+
+
